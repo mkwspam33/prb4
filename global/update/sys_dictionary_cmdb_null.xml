@@ -49,14 +49,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2020-03-02 11:32:28</sys_created_on>
         <sys_id>a24988b9bd1300100ed8f3f9e29d3123</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>cmdb</sys_name>
-        <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">e54908b9bd1300100ed8f3f9e29d315c</sys_package>
+        <sys_package display_value="prb4" source="323bb5c2fc130010f87776523ee47a4b">323bb5c2fc130010f87776523ee47a4b</sys_package>
         <sys_policy/>
         <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
-        <sys_update_name>sys_dictionary_cmdb_null</sys_update_name>
+        <sys_update_name>sys_dictionary_cmdb_NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-03-03 15:33:56</sys_updated_on>
+        <sys_updated_on>2020-03-03 15:37:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -71,7 +71,7 @@
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
         <claim_timestamp>170a1083d7a0000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_cmdb_null</metadata_update_name>
+        <metadata_update_name>sys_dictionary_cmdb_NULL</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>prb4</previous_claim_name>
         <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
@@ -85,7 +85,7 @@
     <sys_claim action="INSERT_OR_UPDATE">
         <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
         <claim_timestamp>170a1083d710000001</claim_timestamp>
-        <metadata_update_name>sys_dictionary_cmdb_null</metadata_update_name>
+        <metadata_update_name>sys_dictionary_cmdb_NULL</metadata_update_name>
         <previous_claim_app_version>1.0.0</previous_claim_app_version>
         <previous_claim_name>com.snc.cmdb</previous_claim_name>
         <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
