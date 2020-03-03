@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="impact" label="Impact" language="en" table="problem">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <help/>
+            <hint>The effect a problem has on the business</hint>
+            <label>Impact</label>
+            <language>en</language>
+            <name>problem</name>
+            <plural>Impact</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-11-18 11:58:27</sys_created_on>
+            <sys_id>c36b94a7d7032200f2d224837e610399</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Impact</sys_name>
+            <sys_package display_value="Problem Management Best Practice - Jakarta" source="com.snc.best_practice.problem.jakarta">552dccf5bd5700100ed8f3f9e29d31e4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+            <sys_update_name>sys_documentation_problem_impact_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-03-03 14:31:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0cf37d70000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_impact_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:31:39</sys_created_on>
+        <sys_id>81eb7dc2fc130010f87776523ee47aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:39</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0cf37d00000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_problem_impact_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.best_practice.problem.jakarta</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.problem.ja</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:31:39</sys_created_on>
+        <sys_id>45eb7dc2fc130010f87776523ee47aa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:39</sys_updated_on>
+    </sys_claim>
+</record_update>

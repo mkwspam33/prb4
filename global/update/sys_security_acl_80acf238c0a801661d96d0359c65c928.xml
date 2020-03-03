@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>itil role required to write to problem records</description>
+        <name>problem</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = true;
+if (pm.isActive('com.snc.best_practice.problem.madrid.state_model')) {
+	if (current.state == ProblemState.STATES.CLOSED)
+		answer = false;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>myla.jordan</sys_created_by>
+        <sys_created_on>2011-04-23 04:45:08</sys_created_on>
+        <sys_id>80acf238c0a801661d96d0359c65c928</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>problem</sys_name>
+        <sys_package display_value="High Security Settings" source="com.glide.high_security">be8b0035bd1700100ed8f3f9e29d31b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_security_acl_80acf238c0a801661d96d0359c65c928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:41</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0cf3fb60000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_80acf238c0a801661d96d0359c65c928</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:31:41</sys_created_on>
+        <sys_id>adebbdc2fc130010f87776523ee47a15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:41</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0cf3faf0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_80acf238c0a801661d96d0359c65c928</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.glide.high_security</previous_claim_name>
+        <previous_claim_scope>com.glide.high_security</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:31:41</sys_created_on>
+        <sys_id>61ebbdc2fc130010f87776523ee47a16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:41</sys_updated_on>
+    </sys_claim>
+</record_update>

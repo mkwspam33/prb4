@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Problem</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>problem</name>
+        <number_ref display_value="PRB">6</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">cc0988b5bd1300100ed8f3f9e29d31ba</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-03-02 11:39:07</sys_created_on>
+        <sys_id>c0dac0f9bdd300100ed8f3f9e29d315b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Problem</sys_name>
+        <sys_package display_value="Problem Management" source="com.snc.problem">00dac0f9bdd300100ed8f3f9e29d3128</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_db_object_c0dac0f9bdd300100ed8f3f9e29d315b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:33:43</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0d11c740000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_c0dac0f9bdd300100ed8f3f9e29d315b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:33:43</sys_created_on>
+        <sys_id>d75c7106fc130010f87776523ee47a47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:33:43</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0d11c6a0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_c0dac0f9bdd300100ed8f3f9e29d315b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.problem</previous_claim_name>
+        <previous_claim_scope>com.snc.problem</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:33:43</sys_created_on>
+        <sys_id>9b5c7106fc130010f87776523ee47a47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:33:43</sys_updated_on>
+    </sys_claim>
+</record_update>

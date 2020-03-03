@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-21 18:34:38</sys_created_on>
+        <sys_id>ac293a79870023005087af1e36cb0b2c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>problem_task.assigned_to.itil</sys_name>
+        <sys_package display_value="Problem Management Best Practice - Madrid" source="com.snc.best_practice.problem.madrid">d07d403dbd5700100ed8f3f9e29d31c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_security_acl display_value="problem_task.assigned_to">c2f8b679870023005087af1e36cb0b4e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ac293a79870023005087af1e36cb0b2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:51</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0cf66900000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_ac293a79870023005087af1e36cb0b2c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:31:51</sys_created_on>
+        <sys_id>84fb3106fc130010f87776523ee47ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:51</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a0cf66870000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_ac293a79870023005087af1e36cb0b2c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.best_practice.problem.madrid</previous_claim_name>
+        <previous_claim_scope>com.snc.best_practice.problem.ma</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 14:31:51</sys_created_on>
+        <sys_id>48fb3106fc130010f87776523ee47ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 14:31:51</sys_updated_on>
+    </sys_claim>
+</record_update>
