@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="extension_model=partition,largeTable=true" label="Base Configuration Item" max_length="40" name="cmdb" sizeclass="2784" type="collection"/>
+</database>

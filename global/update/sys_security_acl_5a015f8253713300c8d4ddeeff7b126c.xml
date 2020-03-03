@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow list_edit for hierarchy_id in cmdb_ci_business_capability, if the ACL script returns true.</description>
+        <name>cmdb_ci_business_capability.hierarchy_id</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script><![CDATA[var isCustomHierarchyIdPropertySet = gs.getProperty('use_business_capability_custom_hierarchy_id');
+if (isCustomHierarchyIdPropertySet != "true") {
+    answer = false;
+} else {
+    answer = true;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 10:58:46</sys_created_on>
+        <sys_id>5a015f8253713300c8d4ddeeff7b126c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>cmdb_ci_business_capability.hierarchy_id</sys_name>
+        <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">e54908b9bd1300100ed8f3f9e29d315c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_security_acl_5a015f8253713300c8d4ddeeff7b126c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:15</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a106b0190000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_5a015f8253713300c8d4ddeeff7b126c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:15</sys_created_on>
+        <sys_id>acc98a8aa9130010f877b9481bbf64ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:15</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a106b0100000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_5a015f8253713300c8d4ddeeff7b126c</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.cmdb</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:15</sys_created_on>
+        <sys_id>60c98a8aa9130010f877b9481bbf64bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:15</sys_updated_on>
+    </sys_claim>
+</record_update>

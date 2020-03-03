@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>bryan.boyle</sys_created_by>
+        <sys_created_on>2012-11-29 18:50:38</sys_created_on>
+        <sys_id>2f78a2b837823000158bbfc8bcbe5d44</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cmdb_hardware_product_model.model_manager</sys_name>
+        <sys_package display_value="Model Management" source="com.snc.model">1c49c0b9bd1300100ed8f3f9e29d315d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_security_acl display_value="cmdb_hardware_product_model">fc3e07c31b302000aebbfbcd2c0713a5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2f78a2b837823000158bbfc8bcbe5d44</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:33:56</sys_updated_on>
+        <sys_user_role display_value="model_manager" name="model_manager">f0fc76431b302000aebbfbcd2c071346</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a1083b280000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_2f78a2b837823000158bbfc8bcbe5d44</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:33:56</sys_created_on>
+        <sys_id>c12a060ea9130010f877b9481bbf6454</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:33:56</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a1083b1e0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_role_2f78a2b837823000158bbfc8bcbe5d44</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.model</previous_claim_name>
+        <previous_claim_scope>com.snc.model</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:33:56</sys_created_on>
+        <sys_id>852a060ea9130010f877b9481bbf6454</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:33:56</sys_updated_on>
+    </sys_claim>
+</record_update>

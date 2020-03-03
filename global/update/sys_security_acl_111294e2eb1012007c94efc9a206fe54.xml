@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow delete of records in cmdb_health_metric, for users with role maint.</description>
+        <name>cmdb_health_metric</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-12-15 19:41:58</sys_created_on>
+        <sys_id>111294e2eb1012007c94efc9a206fe54</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cmdb_health_metric</sys_name>
+        <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">e54908b9bd1300100ed8f3f9e29d315c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_security_acl_111294e2eb1012007c94efc9a206fe54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a106debc0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_111294e2eb1012007c94efc9a206fe54</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:26</sys_created_on>
+        <sys_id>d7c94e8aa9130010f877b9481bbf64b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:26</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a106deb20000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_111294e2eb1012007c94efc9a206fe54</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.cmdb</previous_claim_name>
+        <previous_claim_scope>com.snc.cmdb</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:26</sys_created_on>
+        <sys_id>9bc94e8aa9130010f877b9481bbf64b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:26</sys_updated_on>
+    </sys_claim>
+</record_update>

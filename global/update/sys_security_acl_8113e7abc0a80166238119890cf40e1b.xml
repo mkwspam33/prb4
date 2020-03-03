@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>asset or itil role required to create cmdb_baseline_entry records</description>
+        <name>cmdb_baseline_entry</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>myla.jordan</sys_created_by>
+        <sys_created_on>2011-04-23 06:37:36</sys_created_on>
+        <sys_id>8113e7abc0a80166238119890cf40e1b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cmdb_baseline_entry</sys_name>
+        <sys_package display_value="High Security Settings" source="com.glide.high_security">be8b0035bd1700100ed8f3f9e29d31b4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_security_acl_8113e7abc0a80166238119890cf40e1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:11</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a106a3680000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_8113e7abc0a80166238119890cf40e1b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:11</sys_created_on>
+        <sys_id>6fb9c68aa9130010f877b9481bbf64fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:11</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a106a35e0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_8113e7abc0a80166238119890cf40e1b</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.glide.high_security</previous_claim_name>
+        <previous_claim_scope>com.glide.high_security</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:11</sys_created_on>
+        <sys_id>23b9c68aa9130010f877b9481bbf64fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:11</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>There can only be one main component for a bundle.</description>
+        <name>cmdb_m2m_model_component.master</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[var mainComponent = current.parent.main_component;
+mainComponent.nil() || mainComponent == current.sys_id;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>elliot.monifi</sys_created_by>
+        <sys_created_on>2012-05-09 20:53:35</sys_created_on>
+        <sys_id>ab40a893c3f1200032a0fd251eba8f54</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>cmdb_m2m_model_component.master</sys_name>
+        <sys_package display_value="Model Management" source="com.snc.model">1c49c0b9bd1300100ed8f3f9e29d315d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_security_acl_ab40a893c3f1200032a0fd251eba8f54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:38</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a1070abd0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_ab40a893c3f1200032a0fd251eba8f54</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:38</sys_created_on>
+        <sys_id>c2d902caa9130010f877b9481bbf64c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:38</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a1070ab30000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_ab40a893c3f1200032a0fd251eba8f54</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.model</previous_claim_name>
+        <previous_claim_scope>com.snc.model</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:38</sys_created_on>
+        <sys_id>86d902caa9130010f877b9481bbf64c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:38</sys_updated_on>
+    </sys_claim>
+</record_update>

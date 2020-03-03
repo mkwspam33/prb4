@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Software License Calculation is system data and cannot be edited by anyone</description>
+        <name>cmdb_sw_license_calculation</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>magaly.drant</sys_created_by>
+        <sys_created_on>2012-03-16 01:12:40</sys_created_on>
+        <sys_id>da3cca291b302000aebbfbcd2c071334</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cmdb_sw_license_calculation</sys_name>
+        <sys_package display_value="Model Management" source="com.snc.model">1c49c0b9bd1300100ed8f3f9e29d315d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</sys_scope>
+        <sys_update_name>sys_security_acl_da3cca291b302000aebbfbcd2c071334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:54</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a1074af60000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_da3cca291b302000aebbfbcd2c071334</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>prb4</previous_claim_name>
+        <previous_claim_scope>323bb5c2fc130010f87776523ee47a4b</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:54</sys_created_on>
+        <sys_id>46e906caa9130010f877b9481bbf64d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:54</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="prb4">323bb5c2fc130010f87776523ee47a4b</claim_owner_scope>
+        <claim_timestamp>170a1074aec0000001</claim_timestamp>
+        <metadata_update_name>sys_security_acl_da3cca291b302000aebbfbcd2c071334</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>com.snc.model</previous_claim_name>
+        <previous_claim_scope>com.snc.model</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-03 15:32:54</sys_created_on>
+        <sys_id>0ae906caa9130010f877b9481bbf64d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-03 15:32:54</sys_updated_on>
+    </sys_claim>
+</record_update>
